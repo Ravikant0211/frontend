@@ -1,0 +1,57 @@
+.hg {
+    width: 100%;
+    max-width: 1024px;
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+.hgItem {
+    flex: 1;
+    gap: 10px;
+    display: flex;
+    flex-direction: column;
+}
+
+.hgItemImg {
+    width: 100%;
+    border-radius: 5px;
+    object-fit: cover;
+}
+
+.hgName {
+    font-weight: bold;
+    color: #333;
+}
+
+.hgCity {
+    font-weight: 300;
+    color: #aaa;
+}
+
+.hgPrice {
+    font-weight: 600;
+    color: #333;
+}
+
+.hgRating {
+    display: flex;
+    align-items: center;
+    gap: 6px;
+}
+
+.hgRating>button {
+    background-color: #003580;
+    color: white;
+    border: none;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    padding: 5px;
+}
+
+.hgRating>span {
+    font-size: 12px;
+    font-weight: 400;
+    color:#333;
+}
